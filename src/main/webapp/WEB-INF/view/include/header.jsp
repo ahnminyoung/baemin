@@ -29,18 +29,18 @@ header .admin_page_btn a {
 		<div id="header">
 			<a href="/"><img src="/img/baemin.jpg" alt="이미지"> </a>
 
-			<c:if test="${SPRING_SECURITY_CONTEXT != null }">
-				로그인중			
-			</c:if>
+<%--			<c:if test="${SPRING_SECURITY_CONTEXT != null }">--%>
+<%--				로그인중			--%>
+<%--			</c:if>--%>
 
 			<!-- 임시 -->
-			<c:if test="${SPRING_SECURITY_CONTEXT.authentication.principal.user.role == 'ROLE_ADMIN' }"> 
-			<div class="admin_page_btn">
-				<div>
-					<a href="/admin/main">사장님 페이지</a>
-				</div>
-			</div>
-			</c:if>
+<%--			<c:if test="${SPRING_SECURITY_CONTEXT.authentication.principal.user.role == 'ROLE_ADMIN' }"> --%>
+<%--			<div class="admin_page_btn">--%>
+<%--				<div>--%>
+<%--					<a href="/admin/main">사장님 페이지</a>--%>
+<%--				</div>--%>
+<%--			</div>--%>
+<%--			</c:if>--%>
 			<!-- 임시 -->
 			
 			<div class="menu_tab_box active">
